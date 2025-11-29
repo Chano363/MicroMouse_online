@@ -1,0 +1,31 @@
+﻿  main.c
+  user.c
+  正在生成代码...
+E:\MicroMouse_online\底层调试例程\user.c(53,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(53,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(125,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(125,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(197,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(197,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(269,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(269,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(297,1): warning C4716: “userMain”: 必须返回一个值
+main.obj : error LNK2019: 无法解析的外部符号 communicationInit，函数 main 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 readMessage，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 MotorLeft_Update，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 DcMotor_Left，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetPID_Left，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetSpeed_Left，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 MotorRight_Update，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 DcMotor_Right，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetPID_Right，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetSpeed_Right，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Save_Speed，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Trans_Speed，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_Angel，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_speedLeft，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_speedRight，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 GetDistCent，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_RandomDcMotor，函数 userMain 中引用了该符号
+simulation.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+E:\MicroMouse_online\底层调试例程\x64\Debug\实时调试例程.exe : fatal error LNK1120: 17 个无法解析的外部命令
