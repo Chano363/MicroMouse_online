@@ -1,0 +1,14 @@
+﻿  main.c
+  user.c
+  正在生成代码...
+E:\MicroMouse_online\底层调试例程\user.c(53,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(53,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(125,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(125,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(197,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(197,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(269,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(269,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+E:\MicroMouse_online\底层调试例程\user.c(297,1): warning C4716: “userMain”: 必须返回一个值
+simulation.lib(simulation.obj) : warning LNK4099: 未找到 PDB“”(使用“simulation.lib(simulation.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  实时调试例程.vcxproj -> E:\MicroMouse_online\底层调试例程\Debug\实时调试例程.exe

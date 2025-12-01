@@ -1,0 +1,45 @@
+﻿  aStar.c
+D:\111everytool\computer_mouse\cx\MicroMouse_online\11.30\aStar.c(178,10): warning C4013: “printf”未定义；假设外部返回 int
+  flood.c
+  main.c
+  user.c
+D:\111everytool\computer_mouse\cx\MicroMouse_online\11.30\user.c(173,8): warning C4101: “temp”: 未引用的局部变量
+D:\111everytool\computer_mouse\cx\MicroMouse_online\11.30\user.c(173,14): warning C4101: “temp1”: 未引用的局部变量
+  正在生成代码...
+aStar.obj : error LNK2019: 无法解析的外部符号 StepTurnRight，函数 aStarMethod 中引用了该符号
+flood.obj : error LNK2001: 无法解析的外部符号 StepTurnRight
+user.obj : error LNK2001: 无法解析的外部符号 StepTurnRight
+aStar.obj : error LNK2019: 无法解析的外部符号 StepTurnLeft，函数 aStarMethod 中引用了该符号
+flood.obj : error LNK2001: 无法解析的外部符号 StepTurnLeft
+user.obj : error LNK2001: 无法解析的外部符号 StepTurnLeft
+aStar.obj : error LNK2019: 无法解析的外部符号 TurnBack，函数 aStarMethod 中引用了该符号
+flood.obj : error LNK2001: 无法解析的外部符号 TurnBack
+user.obj : error LNK2001: 无法解析的外部符号 TurnBack
+aStar.obj : error LNK2019: 无法解析的外部符号 MoveOneBlock，函数 aStarMethod 中引用了该符号
+flood.obj : error LNK2001: 无法解析的外部符号 MoveOneBlock
+user.obj : error LNK2001: 无法解析的外部符号 MoveOneBlock
+aStar.obj : error LNK2001: 无法解析的外部符号 GmcMouse
+flood.obj : error LNK2001: 无法解析的外部符号 GmcMouse
+user.obj : error LNK2001: 无法解析的外部符号 GmcMouse
+aStar.obj : error LNK2001: 无法解析的外部符号 GucMouseDir
+flood.obj : error LNK2001: 无法解析的外部符号 GucMouseDir
+user.obj : error LNK2001: 无法解析的外部符号 GucMouseDir
+aStar.obj : error LNK2001: 无法解析的外部符号 GucMapBlock
+flood.obj : error LNK2001: 无法解析的外部符号 GucMapBlock
+user.obj : error LNK2001: 无法解析的外部符号 GucMapBlock
+flood.obj : error LNK2001: 无法解析的外部符号 GucMouseTask
+user.obj : error LNK2001: 无法解析的外部符号 GucMouseTask
+flood.obj : error LNK2001: 无法解析的外部符号 GucMapGet
+user.obj : error LNK2001: 无法解析的外部符号 GucMapGet
+flood.obj : error LNK2001: 无法解析的外部符号 GucMapStep
+user.obj : error LNK2001: 无法解析的外部符号 GucMapStep
+flood.obj : error LNK2001: 无法解析的外部符号 GmcCrossway
+flood.obj : error LNK2001: 无法解析的外部符号 crosswayNum
+main.obj : error LNK2019: 无法解析的外部符号 communicationInit，函数 main 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 mouseInit，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 mouseEnd，函数 userMain 中引用了该符号
+user.obj : error LNK2001: 无法解析的外部符号 leftHasWall
+user.obj : error LNK2001: 无法解析的外部符号 frontHasWall
+user.obj : error LNK2001: 无法解析的外部符号 rightHasWall
+simulation.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\111everytool\computer_mouse\cx\MicroMouse_online\11.30\x64\Debug\Micromouse11_RoutePlan.exe : fatal error LNK1120: 18 个无法解析的外部命令

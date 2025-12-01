@@ -1,0 +1,24 @@
+﻿  main.c
+  user.c
+  正在生成代码...
+D:\111everytool\computer_mouse\cx\MicroMouse_online\基础动作\gostraight\user.c(52,12): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+D:\111everytool\computer_mouse\cx\MicroMouse_online\基础动作\gostraight\user.c(52,45): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+D:\111everytool\computer_mouse\cx\MicroMouse_online\基础动作\gostraight\user.c(80,1): warning C4716: “userMain”: 必须返回一个值
+main.obj : error LNK2019: 无法解析的外部符号 communicationInit，函数 main 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 readMessage，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 MotorLeft_Update，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 DcMotor_Left，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetPID_Left，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetSpeed_Left，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 MotorRight_Update，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 DcMotor_Right，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetPID_Right，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 SetSpeed_Right，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Save_Speed，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Trans_Speed，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_speedLeft，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_speedRight，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 GetDistCent，函数 userMain 中引用了该符号
+user.obj : error LNK2019: 无法解析的外部符号 Get_RandomDcMotor，函数 userMain 中引用了该符号
+simulation.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\111everytool\computer_mouse\cx\MicroMouse_online\基础动作\gostraight\x64\Debug\实时调试例程.exe : fatal error LNK1120: 16 个无法解析的外部命令
