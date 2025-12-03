@@ -26,7 +26,7 @@ int userMain(void)
 			MotorRight_Update();
 			DcMotor_Right();
 
-			SetSpeed_Left(Get_speedLeft() + accelerate+0.007);
+			SetSpeed_Left(Get_speedLeft() - accelerate-0.007);
 			MotorLeft_Update();
 			DcMotor_Left();
 			Save_Speed();
