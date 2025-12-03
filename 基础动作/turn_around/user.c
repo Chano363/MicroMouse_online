@@ -11,13 +11,13 @@ int userMain(void)
 		double angel = 0;
 		double speedLMax = 0;
 		double speedRMax = 0;
-		double accelerate = 0.7;
+		double accelerate = 9;
 
 		readMessage();
 		Get_RandomDcMotor();
 
-		SetPID_Right(11, 0.3, 0.2);
-		SetPID_Left(13, 0.3, 0.2);
+		SetPID_Right(11, 0.55, 1.2);
+		SetPID_Left(17, 0.855, 1.3);
 
 		while (angel <= 30)
 		{

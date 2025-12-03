@@ -11,13 +11,13 @@ int userMain(void)
 		double dist = 0;
 		double speedLMax = 0;
 		double speedRMax = 0;
-		double accelerate = 9;
+		double accelerate = 15.5;
 
 		readMessage();
 		Get_RandomDcMotor();
 
-		SetPID_Right(11, 0.4, 0.8);
-		SetPID_Left(14.176, 0.4, 0.8);
+		SetPID_Right(8, 0.43, 0.8);
+		SetPID_Left(13, 0.65, 0.8);
 
 		while (dist <= 4)
 		{

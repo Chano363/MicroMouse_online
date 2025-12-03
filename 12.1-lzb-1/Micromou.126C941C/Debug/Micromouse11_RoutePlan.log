@@ -1,4 +1,9 @@
-﻿  user.c
-E:\MicroMouse_online\11.30\user.c(173,8): warning C4101: “temp”: 未引用的局部变量
-E:\MicroMouse_online\11.30\user.c(173,14): warning C4101: “temp1”: 未引用的局部变量
-  Micromouse11_RoutePlan.vcxproj -> E:\MicroMouse_online\11.30\Debug\Micromouse11_RoutePlan.exe
+﻿  aStar.c
+  flood.c
+  main.c
+  user.c
+E:\MicroMouse_online\12.1-lzb-1\user.c(177,8): warning C4101: “temp”: 未引用的局部变量
+E:\MicroMouse_online\12.1-lzb-1\user.c(177,14): warning C4101: “temp1”: 未引用的局部变量
+  正在生成代码...
+simulation.lib(simulation.obj) : warning LNK4099: 未找到 PDB“sim_Dll1.pdb”(使用“simulation.lib(simulation.obj)”或在“E:\MicroMouse_online\12.1-lzb-1\Debug\sim_Dll1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  Micromouse11_RoutePlan.vcxproj -> E:\MicroMouse_online\12.1-lzb-1\Debug\Micromouse11_RoutePlan.exe

@@ -20,11 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{32803FE7-F41A-4ACB-B701-C61CD84FB793}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
-    <RootNamespace>实时调试例程</RootNamespace>
+    <ProjectGuid>{126C941C-7720-4A6B-8527-D0481AE62DBD}</ProjectGuid>
+    <RootNamespace>Micromouse11RoutePlan</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>turn_right</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -87,7 +85,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -113,7 +111,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -140,11 +138,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aStar.c" />
+    <ClCompile Include="flood.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="search.c" />
     <ClCompile Include="user.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="simulation.h" />
+    <ClInclude Include="aStar.h" />
+    <ClInclude Include="flood.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="user.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="simulation.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

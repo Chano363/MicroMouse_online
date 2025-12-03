@@ -1,3 +1,13 @@
-*/Debug
-*/.vs
-dotnet-sdk-3.1.201-win-x64.exe
+*.vs/
+.vs/
+**/.vs/
+**/Debug/
+Debug/
+*/Debug/
+**/Release/
+Release/
+*/Release/
+**/bin/
+bin/
+**/obj/
+obj/
