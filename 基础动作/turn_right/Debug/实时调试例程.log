@@ -1,6 +1,7 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(实时调试例程.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   user.c
-D:\github\MicroMouse_online\基础动作\turn_right\user.c(53,28): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
-D:\github\MicroMouse_online\基础动作\turn_right\user.c(53,60): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
-D:\github\MicroMouse_online\基础动作\turn_right\user.c(81): warning C4716: “userMain”: 必须返回一个值
-  实时调试例程.vcxproj -> D:\github\MicroMouse_online\基础动作\turn_right\Debug\turn_right.exe
+D:\github\turn_right\user.c(53,28): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+D:\github\turn_right\user.c(53,60): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+D:\github\turn_right\user.c(81): warning C4716: “userMain”: 必须返回一个值
+simulation.lib(simulation.obj) : warning LNK4099: 未找到 PDB“sim_Dll1.pdb”(使用“simulation.lib(simulation.obj)”或在“D:\github\turn_right\Debug\sim_Dll1.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  实时调试例程.vcxproj -> D:\github\turn_right\Debug\turn_right.exe

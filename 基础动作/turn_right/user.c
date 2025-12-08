@@ -17,8 +17,8 @@ int userMain(void)
 		readMessage();
 		Get_RandomDcMotor();
 
-		SetPID_Right(14, 0.55, 1.2);
-		SetPID_Left(17, 0.95, 1.1);
+		SetPID_Right(14, 0.545, 1.4);
+		SetPID_Left(19.9, 0.933, 10.4);
 
 		while (angel <= 20)
 		{
@@ -26,7 +26,7 @@ int userMain(void)
 			MotorRight_Update();
 			DcMotor_Right();
 
-			SetSpeed_Left(Get_speedLeft() - accelerate-0.007);
+			SetSpeed_Left(Get_speedLeft() + accelerate+0.007);
 			MotorLeft_Update();
 			DcMotor_Left();
 			Save_Speed();

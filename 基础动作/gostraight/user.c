@@ -16,8 +16,8 @@ int userMain(void)
 		readMessage();
 		Get_RandomDcMotor();
 
-		SetPID_Right(8, 0.43, 0.8);
-		SetPID_Left(13, 0.65, 0.8);
+		SetPID_Right(8.4, 0.42, 0.8);
+		SetPID_Left(13.7, 0.64, 0.8);
 
 		while (dist <= 4)
 		{
