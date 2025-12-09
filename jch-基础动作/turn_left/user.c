@@ -12,21 +12,21 @@ int userMain(void)
 		double angel = 0;
 		double speedLMax = 0;
 		double speedRMax = 0;
-		double accelerate = 2.2;
+		double accelerate = 14;
 
 		readMessage();
 		Get_RandomDcMotor();
 
-		SetPID_Right(11, 0.3, 0.7);
-		SetPID_Left(11, 0.3, 0.7);
+		SetPID_Right(10.2, 0.52, 0.9);//11, 0.3, 0.7
+		SetPID_Left(12, 0.62, 0.68);//11, 0.3, 0.7
 
 		while (angel >= -20)
 		{
-			SetSpeed_Right(Get_speedRight() + accelerate);
+			SetSpeed_Right(Get_speedRight() + accelerate + 0.007);
 			MotorRight_Update();
 			DcMotor_Right();
 
-			SetSpeed_Left(Get_speedLeft() - accelerate);
+			SetSpeed_Left(Get_speedLeft() - accelerate + 0.003);
 			MotorLeft_Update();
 			DcMotor_Left();
 			Save_Speed();
